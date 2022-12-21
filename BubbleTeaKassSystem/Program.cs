@@ -23,7 +23,7 @@ namespace BubbleTeaKassSystem
         [STAThread]
         static void Main()
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-RSK8I6S;Initial Catalog=kass_system;Integrated Security=True");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-JBKVKBH;Initial Catalog=employee;Integrated Security=True");
             Global.conn = conn;
 
             Application.EnableVisualStyles();
