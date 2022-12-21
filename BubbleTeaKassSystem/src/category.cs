@@ -13,7 +13,7 @@ namespace BubbleTeaKassSystem.src
 {
     public partial class category : Form
     {
-        private String _category;
+        private String _category; 
         private int selected;
         public int Selected
         {

@@ -13,7 +13,7 @@ using System.Windows.Forms;
 namespace BubbleTeaKassSystem.src
 {
     public partial class product : Form
-    {
+    { 
         private int selectedCategory,  selectedProduct;
         private double _unitprice;
         private string _productName;

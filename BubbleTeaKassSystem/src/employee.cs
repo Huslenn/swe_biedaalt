@@ -15,7 +15,7 @@ namespace BubbleTeaKassSystem.src
     {
         private string _username, _password, _phone, _address, _register, _firstname, _lastname;
         private int _profession, _eId;
-        public string Username
+        public string Username 
         {
             get { return _username; }
             set { _username = value; }

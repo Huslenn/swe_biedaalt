@@ -21,7 +21,7 @@ namespace BubbleTeaKassSystem
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main() 
         {
             SqlConnection conn = new SqlConnection("Data Source=DESKTOP-JBKVKBH;Initial Catalog=employee;Integrated Security=True");
             Global.conn = conn;

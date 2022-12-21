@@ -14,7 +14,7 @@ namespace BubbleTeaKassSystem.src
     {
         public home()
         {
-            InitializeComponent();
+            InitializeComponent(); 
             username.Text = Global.user;
         }
 

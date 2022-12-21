@@ -27,7 +27,7 @@ namespace BubbleTeaKassSystem
         }
         public Login()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void password_TextChanged(object sender, EventArgs e)
